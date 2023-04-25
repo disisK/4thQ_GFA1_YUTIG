@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(file:///C:/Users/ADMIN/Desktop/KEIARRA%20GRADE%209/cs%203/4th%20quarter/GFA1_YUTIG/pic.jpg);
+    background-position: top;
+    background-size: cover;
+    position: fixed;
+}
+.sign{
+    background-color: rgba(255, 229, 196, 0.886);
+    border-radius: 15px ;
+    padding: 10px;
+    width: 25%;
+    margin-left: 50px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+h2{
+    text-shadow: 2px 2px white;
+    color: rgb(23, 151, 156);
+    text-align: center;
+    font-family: 'Comic Sans MS';
+}
+button{
+    border-radius: 10px;
+    background-color: #4091b7;
+    color: white; 
+    margin-top: 5px;  
+    padding: 10px;
+    margin-left: 37px;
+    margin-bottom: 3px;
+    border: none;
+    width: 90px;
+}
+button:hover{
+    opacity: 0.7;
+}
+input[type=text]{
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+    display: inline-block;
+    border-radius: 3px;
+    border: none;
+    background: #ffffff;
+}
+input[type=radio]{
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+.sign #first,
+.sign #last,
+.sign #email{
+    font-family: 'Ebrima';
+}
+label[for=first],
+label[for=last],
+label[for=email],
+label[for=sex],
+label[for=number]{
+    color: #19485dd9;
+    font-family: 'Comic Sans MS';
+    font-size: 17px;
+}
+label[for=female],
+label[for=male],
+label[for=none]
+{
+    color: #171a1cd9;
+    font-family: 'Comic Sans MS';
+}
+header{
+    color: white;
+    text-align: center;
+    margin-right: 300px;
+    margin-top: 7px;
+    text-shadow: 2px 3px rgba(241, 160, 173, 0.775);
+    font-size: 55px;
+    font-family: 'Segoe Script';
+}
+.bod{
+    padding: 6px;
+    color: rgb(11, 14, 4);
+    border: 2px solid pink;
+    border-radius: 10px;
+    width: 40%;
+    float: right;
+    margin-top: 100px;
+    margin-right: 70px;
+    padding-left: 15px;
+    padding-bottom: 35px;
+    background-color: rgba(241, 215, 182, 0.832);
+}
+h3{
+    font-family: 'Comic Sans MS';
+    text-shadow: 2px 3px rgba(111, 219, 225, 0.855);
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+p{
+    color: #094f6ff2;
+    word-spacing: 2px;
+    font-family: 'Rockwell';
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    transition: 0.5s;
+}
+.meu{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 30px;
+}
+.menu{
+    border: 2px;
+    float: right;
+    height: 100%;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    
+  }
+.closebtn{
+    position: absolute;
+    padding-top: 15px;
+    left: 15px;
+    font-size: 30px;
+    color: #fafffb;
+    text-decoration: none;
+}
+.buto .closebtn:hover{
+    color: #f1f1f196;
+}
+.side-bar{
+    width: 0;
+    height: 100%;
+    background: linear-gradient(#ff85d67a, #6bfffa72);
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.social-links img{
+    padding-left: 30px;
+    width: 35px;
+    margin: 5px;
+    cursor: pointer;
+}
+.social-links{
+    width: 20px;
+    position: absolute;
+}
+.social{
+    text-align: center;
+    padding-top: 250px;
+}
