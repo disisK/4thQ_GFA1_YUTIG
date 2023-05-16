@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <div class="nav" id="myNav">
+            <header>ANGAT BUHAY</header>
+            <div class="menu">
+                <img src="file:///C:/Users/ADMIN/Desktop/KEIARRA%20GRADE%209/cs%203/4th%20quarter/GFA1_YUTIG/menu.png" onclick="openNav()" class="meu">
+            </div>
+        </div>
+        
+        <div class="side-bar" id="mySidebar">
+            <div class="social-links">
+                <div class="buto">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                </div>
+                <div class="social">
+                  <img src="file:///C:/Users/ADMIN/Desktop/KEIARRA%20GRADE%209/cs%203/4th%20quarter/GFA1_YUTIG/fb.png">
+                  <img src="file:///C:/Users/ADMIN/Desktop/KEIARRA%20GRADE%209/cs%203/4th%20quarter/GFA1_YUTIG/ig.png">
+                  <img src="file:///C:/Users/ADMIN/Desktop/KEIARRA%20GRADE%209/cs%203/4th%20quarter/GFA1_YUTIG/tw.png">  
+                </div>
+            </div>
+        </div>
+        
+        <div class="bod">
+            <h3>ANGAT BUHAY</h3>
+            <p>Angat Buhay is the charity organization that I chose. 
+                The founder of this charity is our former Vice President, Leni Robredo. 
+                I chose this charity because of its several successful initiative and projects in helping people. 
+                In addition, it focuses on various topics, including food, health, education, and many more. 
+                Especially for those who are poor, this charity has brought a significant effect on people's lives. 
+                Furthermore, this charity shows its sincere desire to assist those in need.</p>
+        </div>
+        <div class="up">
+            <form class="modal-content" name="form" onsubmit="validated(); return false"></form>
+
+            <div class="sign">
+                <h2>Sign-up Here!</h2>
+                <form action="/action_page.php">
+                    <label for="first">First Name:</label>
+                    <br><input type="text" id="first" name="first" required>
+
+                    <br><label for="last">Last Name:</label>
+                    <br><input type="text" id="last" name="last" required>
+
+                    <br><label for="sex">Sex:</label>
+                    <br><input type="radio" id="male" name="sex" value="Male" required>
+                    <label for="male">Male</label>
+                    <br><input type="radio" id="female" name="sex" value="Female" required>
+                    <label for="female">Female</label>
+                    <br><input type="radio" id="none" name="sex" value="none" required>
+                    <label for="none">Prefer not to say</label>
+                
+                    <br><label for="email">Email address:</label>
+                    <br><input type="text" id="email" name="email" required>
+
+                    <br><label for="number">Contact Number:</label>
+                    <br><input type="text" id="number" name="email" maxlength="11">
+
+                    <br><button type="submit">Submit</button>
+                    <button type="reset" class="reset">Reset</button>
+                </form>
+                    
+            </div> 
+        </div>
+    </div>
+       
+    
+</body>
+</html>
